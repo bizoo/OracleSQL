@@ -4,6 +4,8 @@ Sublime Text 2 plackage for editing Oracle SQL and PL/SQL
 
 Language definition and execution utilities for Oracle PL/SQL files.
 
+It is based on the bundle http://code.google.com/p/oracle-textmate-bundle/ 
+
 Build
 -----
 
@@ -24,3 +26,4 @@ To execute your PL/SQL source on your schema with ST2 Build command, you have to
             }
         ]
     }
+
