@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>elsif ${1:condition} then
+	$0</string>
+	<key>name</key>
+	<string>elsif ...</string>
+	<key>scope</key>
+	<string>source.plsql.oracle</string>
+	<key>tabTrigger</key>
+	<string>e</string>
+	<key>uuid</key>
+	<string>903299D6-F40E-44A8-BB51-F63F4CFA8B15</string>
+</dict>
+</plist>

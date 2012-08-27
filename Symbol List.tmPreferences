@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>name</key>
+    <string>Symbol List</string>
+    <key>scope</key>
+    <string>source.plsql.oracle meta.procedure.oracle,source.plsql.oracle meta.function.oracle, source.plsql.oracle meta.package.oracle</string>
+    <key>settings</key>
+    <dict>
+        <key>showInSymbolList</key>
+        <integer>1</integer>
+    </dict>
+    <key>uuid</key>
+    <string>AEA27D4E-7DBA-427F-BB8D-36AD5EB40774</string>
+</dict>
+</plist>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>function ${1:func_name}(
+    po_result_code   OUT NUMBER)
+return ${2:RETURN_TYPE}
+is
+begin
+  $0
+end $1;</string>
+	<key>name</key>
+	<string>New Function</string>
+	<key>scope</key>
+	<string>source.plsql.oracle</string>
+	<key>tabTrigger</key>
+	<string>func</string>
+	<key>uuid</key>
+	<string>5873A2DA-C72C-40DB-8859-368CA8B3809E</string>
+</dict>
+</plist>

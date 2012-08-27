@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Indent</string>
+	<key>scope</key>
+	<string>source.plsql.oracle</string>
+	<key>settings</key>
+	<dict>
+		<key>decreaseIndentPattern</key>
+		<string>(?i)^\s*(is|as|begin|end|then|else|elsif|exception)\b</string>
+		<key>increaseIndentPattern</key>
+		<string>(?i)^\s*(is|as|begin|if|then|else|elsif|loop|exception)\b</string>
+	</dict>
+	<key>uuid</key>
+	<string>6A30BCDD-20CB-4E24-A1DC-5187E6AA36A6</string>
+</dict>
+</plist>

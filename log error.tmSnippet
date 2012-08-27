@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Corelogger.Log_Open_PrintError_Close(pi_pkg_name, l_procname,
+    $0);</string>
+	<key>name</key>
+	<string>log error</string>
+	<key>scope</key>
+	<string>source.plsql.oracle</string>
+	<key>tabTrigger</key>
+	<string>error</string>
+	<key>uuid</key>
+	<string>530B58B1-3B40-4C01-8DC0-F56913D9B6D3</string>
+</dict>
+</plist>

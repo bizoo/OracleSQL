@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>IF po_result_code = Corecontainertask.c_result_success
+THEN
+  $0
+END IF;</string>
+	<key>name</key>
+	<string>success</string>
+	<key>scope</key>
+	<string>source.plsql.oracle</string>
+	<key>tabTrigger</key>
+	<string>success</string>
+	<key>uuid</key>
+	<string>BFC99B3F-C765-44C3-8FF2-4842D6FE3550</string>
+</dict>
+</plist>

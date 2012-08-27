@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>IF po_result_code &lt;&gt; Corecontainertask.c_result_success
+THEN
+  Corelogger.Log_Open_PrintError_Close(pi_pkg_name, l_procname,
+      $0);
+END IF;</string>
+	<key>name</key>
+	<string>fail</string>
+	<key>scope</key>
+	<string>source.plsql.oracle</string>
+	<key>tabTrigger</key>
+	<string>fail</string>
+	<key>uuid</key>
+	<string>D0D94340-FC05-4955-A2D4-5E8ECFF51D3C</string>
+</dict>
+</plist>

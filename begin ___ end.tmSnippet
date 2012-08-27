@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>begin
+  $0
+
+exception
+  when ${1:others} then
+    ${2:null};
+end;</string>
+	<key>name</key>
+	<string>begin ... end</string>
+	<key>scope</key>
+	<string>source.plsql.oracle</string>
+	<key>tabTrigger</key>
+	<string>begin</string>
+	<key>uuid</key>
+	<string>B938F8F9-0A4D-4279-8C97-1FAFF1FBDE60</string>
+</dict>
+</plist>

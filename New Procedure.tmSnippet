@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>PROCEDURE ${1:proc_name}(
+    po_result_code   OUT NUMBER)
+IS
+  l_procname VARCHAR2(30) := '${1/_(.)/\u$1/g}';
+BEGIN
+  Corelogger.Log_Open_Print_Close(pi_pkg_name, l_procname,
+      ${2:INITIAL STATE});
+  po_result_code := Corecontainertask.c_result_success;
+
+  $0
+
+  EXCEPTION
+    WHEN OTHERS THEN
+      Corelogger.Log_Open_PrintError_Close(pi_pkg_name, l_procname,
+        'Exception: ' || SUBSTR(SQLERRM(SQLCODE), 1, 100));
+      po_result_code := Corecontainertask.c_result_failure;
+END $1;</string>
+	<key>name</key>
+	<string>New Procedure</string>
+	<key>scope</key>
+	<string>source.plsql.oracle</string>
+	<key>tabTrigger</key>
+	<string>proc</string>
+	<key>uuid</key>
+	<string>9C4245C0-3B0F-4285-89EF-3256D30F973D</string>
+</dict>
+</plist>
