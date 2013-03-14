@@ -151,7 +151,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i)\b(avg|count|sum|max|min|nvl|chr|trim|to_date|to_char|lpad|ltrim|rpad|rtrim|trunc|to_number|extractvalue|sign|abs|floor|mod|ascii)\b</string>
+			<string>(?i)\b(avg|count|sum|max|min|nvl|chr|trim|to_date|to_char|lpad|ltrim|rpad|rtrim|trunc|to_number|extractvalue|sign|abs|floor|mod|ascii|coalesce)\b</string>
 			<key>name</key>
 			<string>support.function.builtin.oracle</string>
 		</dict>
