@@ -6,10 +6,14 @@ Language definition and execution utilities for Oracle PL/SQL files.
 
 It is based on the bundle http://code.google.com/p/oracle-textmate-bundle/ 
 
+Install
+-----
+Download and extract package. Rename folder from *Oracle-master* to *OracleSQL* and place in C:\\Users\\...\\AppData\\Roaming\\Sublime Text 2\\Packages\\
+
 Build
 -----
 
-To execute your PL/SQL source on your schema with ST2 Build command, you have to create a .sublime-build in your ST2 user folder file containing something like::
+To execute your PL/SQL source on your schema with ST2 Build command, you have to create a .sublime-build in your ST2 Users folder file containing something like::
 
     {
         "target": "oracle_exec",
