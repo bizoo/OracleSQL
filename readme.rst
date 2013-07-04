@@ -8,7 +8,8 @@ It is based on the bundle http://code.google.com/p/oracle-textmate-bundle/
 
 Install
 -----
-Download and extract package. Rename folder from *Oracle-master* to *OracleSQL* and place in C:\\Users\\...\\AppData\\Roaming\\Sublime Text 2\\Packages\\
+- Download and extract package. Rename folder from *Oracle-master* to *OracleSQL* and place in C:\\Users\\...\\AppData\\Roaming\\Sublime Text 2\\Packages\\
+- Install keymaps for the commands (see Example.sublime-keymap for my preferred keys)
 
 Build
 -----
