@@ -20,11 +20,11 @@ class OracleExecCommand(execmod.ExecCommand):
                 sqlfilter = "\"''\""
             else:
                 sqlfilter = '"' + ",".join("'%s'" % entity for entity in self.entities.keys()) + '"'
-            
-            cmd = ["sqlplus.exe", "-s", dsn, "@", os.path.join(sublime.packages_path(), 'OracleSQL', 'RunSQL.sql'),
-                    self.window.active_view().file_name(), sqlfilter]
 
-            super(OracleExecCommand, self).run(cmd, "^Filename: (.+)$", "^\\(.+?/([0-9]+):([0-9]+)\\) [0-9]+:[0-9]+ (.+)$", **kwargs)
+            (directory, filename) = os.path.split(self.window.active_view().file_name())
+            cmd = ["sqlplus.exe", "-s", dsn, "@", os.path.join(sublime.packages_path(), 'OracleSQL', 'RunSQL.sql'), '"'+filename+'"', sqlfilter]
+
+            super(OracleExecCommand, self).run(cmd, "^Filename: (.+)$", "^\\(.+?/([0-9]+):([0-9]+)\\) [0-9]+:[0-9]+ (.+)$", working_dir=directory, **kwargs)
 
     def append_data(self, proc, data):
         # Update the line number of output_view with the correct line number of source view
