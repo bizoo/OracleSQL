@@ -16,8 +16,11 @@ class OracleExecCommand(execmod.ExecCommand):
             # Find entities declaration in source
             self.entities = oracle_lib.find_entities(self.window.active_view())
             # Create a string for the in of sql command
-            sqlfilter = '"' + ",".join("'%s'" % entity for entity in self.entities.keys()) + '"'
-
+            if len(self.entities) == 0:
+                sqlfilter = "\"''\""
+            else:
+                sqlfilter = '"' + ",".join("'%s'" % entity for entity in self.entities.keys()) + '"'
+            
             cmd = ["sqlplus.exe", "-s", dsn, "@", os.path.join(sublime.packages_path(), 'OracleSQL', 'RunSQL.sql'),
                     self.window.active_view().file_name(), sqlfilter]
 
