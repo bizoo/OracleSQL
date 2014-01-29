@@ -1,5 +1,5 @@
 =========================================================
-Sublime Text 2 plackage for editing Oracle SQL and PL/SQL 
+Sublime Text 2 package for editing Oracle SQL and PL/SQL 
 =========================================================
 
 Language definition and execution utilities for Oracle PL/SQL files.
