@@ -7,6 +7,11 @@
 		<string>sql</string>
 		<string>ddl</string>
 		<string>dml</string>
+		<string>pks</string>
+		<string>pkb</string>
+		<string>fnc</string>
+		<string>prc</string>
+		<string>pck</string>
 	</array>
 	<key>foldingStartMarker</key>
 	<string>(?i)^\s*(begin|if|loop)\b</string>
